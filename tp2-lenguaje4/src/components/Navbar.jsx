@@ -4,7 +4,7 @@ import './Navbar.css'
 function Navbar() {
   return (
     <header className="navbar">
-      <div className="marca">TP2 · Lenguaje IV</div>
+      <div className="marca">TP4 · Lenguaje IV</div>
       <nav>
         <NavLink to="/" end className={({ isActive }) => isActive ? 'activo' : ''}>
           Inicio

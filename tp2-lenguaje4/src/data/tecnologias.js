@@ -1,0 +1,68 @@
+const tecnologias = [
+  {
+    id: 1,
+    nombre: 'React',
+    categoria: 'Frontend',
+    nivel: 'Avanzado',
+    descripcion: 'Biblioteca de JavaScript para construir interfaces de usuario basadas en componentes.',
+    imagen: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
+  },
+  {
+    id: 2,
+    nombre: 'JavaScript',
+    categoria: 'Lenguaje',
+    nivel: 'Avanzado',
+    descripcion: 'Lenguaje de programación principal para el desarrollo web del lado del cliente.',
+    imagen: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg',
+  },
+  {
+    id: 3,
+    nombre: 'Python',
+    categoria: 'Lenguaje',
+    nivel: 'Intermedio',
+    descripcion: 'Lenguaje versátil usado en backend, automatización y análisis de datos.',
+    imagen: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg',
+  },
+  {
+    id: 4,
+    nombre: 'Node.js',
+    categoria: 'Backend',
+    nivel: 'Intermedio',
+    descripcion: 'Entorno de ejecución de JavaScript del lado del servidor.',
+    imagen: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg',
+  },
+  {
+    id: 5,
+    nombre: 'Git',
+    categoria: 'Herramienta',
+    nivel: 'Intermedio',
+    descripcion: 'Sistema de control de versiones para el seguimiento de cambios en el código.',
+    imagen: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg',
+  },
+  {
+    id: 6,
+    nombre: 'CSS3',
+    categoria: 'Frontend',
+    nivel: 'Avanzado',
+    descripcion: 'Lenguaje de estilos para dar diseño y maquetación a las páginas web.',
+    imagen: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
+  },
+  {
+    id: 7,
+    nombre: 'MongoDB',
+    categoria: 'Base de datos',
+    nivel: 'Básico',
+    descripcion: 'Base de datos NoSQL orientada a documentos, flexible y escalable.',
+    imagen: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg',
+  },
+  {
+    id: 8,
+    nombre: 'MySQL',
+    categoria: 'Base de datos',
+    nivel: 'Intermedio',
+    descripcion: 'Sistema de gestión de bases de datos relacionales muy utilizado en la industria.',
+    imagen: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg',
+  },
+]
+
+export default tecnologias

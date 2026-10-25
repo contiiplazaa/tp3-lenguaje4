@@ -1,0 +1,48 @@
+.grilla-tecnologias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.tarjeta-tecnologia {
+  background: #fff;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.tarjeta-tecnologia img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  margin-bottom: 6px;
+}
+
+.tarjeta-tecnologia h2 {
+  font-size: 1.1rem;
+  color: #1e3c72;
+}
+
+.tarjeta-tecnologia .etiqueta {
+  background: #e3eaf7;
+  color: #1e3c72;
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.tarjeta-tecnologia .nivel {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.tarjeta-tecnologia p {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 6px;
+}
